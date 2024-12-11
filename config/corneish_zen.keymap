@@ -40,10 +40,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB       &kp Q  &kp W  &kp F           &kp P  &kp B          &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&kp LCTRL     &kp A  &kp R  &kp S           &kp T  &kp G          &kp M        &kp N  &kp E      &kp I    &kp O          &kp SQT
-&kp LEFT_WIN  &kp X  &kp C  &kp D           &kp V  &kp Z          &kp K        &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                            &kp LEFT_SHIFT  &mo 1  &lt 3 SPACE    &lt 3 ENTER  &mo 2  &kp RALT
+&kp TAB           &kp Q  &kp W  &kp F           &kp P  &kp B          &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&kp LCTRL         &kp A  &kp R  &kp S           &kp T  &kp G          &kp M        &kp N  &kp E      &kp I    &kp O          &kp SQT
+&kp LA(LEFT_WIN)  &kp X  &kp C  &kp D           &kp V  &kp Z          &kp K        &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
+                                &kp LEFT_SHIFT  &mo 2  &lt 3 SPACE    &lt 3 ENTER  &mo 2  &kp RALT
             >;
         };
 
@@ -57,10 +57,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans        &none         &none         &none           &none         &none              &none         &none         &none         &none         &kp DEL   &kp BSPC
-&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp HOME  &kp PG_UP
-&trans        &none         &none         &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW    &none         &none         &none         &none         &kp END   &kp PG_DN
-                                          &kp DOWN_ARROW  &trans        &trans             &kp INS       &kp DEL       &trans
+&trans                  &none         &none         &none           &none         &none              &none         &none         &none         &none         &kp DEL   &kp BSPC
+&kp NUMBER_0            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp HOME  &kp PG_UP
+&kp LA(LS(DOWN_ARROW))  &none         &none         &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW    &none         &none         &none         &none         &kp END   &kp PG_DN
+                                                    &kp DOWN_ARROW  &trans        &trans             &kp INS       &kp DEL       &trans
             >;
         };
 
